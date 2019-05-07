@@ -1,0 +1,112 @@
+/* navigation for about page */
+
+.m-v h2 {
+    font-size: 14px!important;
+    font-family: ABeeZee;
+    margin-bottom: 0px!important;
+}
+
+.m-v {
+    text-align: center!important;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.m-r {
+    box-shadow: 2px 3px 15px 0px #e0e0e0!important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.m-l {
+    background-color: #EB5508!important;
+    color: #fff!important;
+}
+
+.m-v a {
+    color: #000000;
+    text-decoration: none!important;
+}
+
+.m-v a:hover {
+    text-decoration: none!important;
+}
+
+.m-l a {
+    color: #fff!important;
+}
+
+
+/* navigation ends here */
+
+.pas-inc {
+    font-family: ABeeZee;
+    padding-bottom: 30px;
+}
+
+.pas-inc h2 {
+    font-size: 20px!important;
+    font-weight: 600;
+}
+
+.pas-inc p {
+    font-size: 14px!important;
+    line-height: 1.8;
+}
+
+
+/* images details goes here */
+
+.sm-biz {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: ABeeZee!important;
+    padding-bottom: 30px;
+}
+
+.ul-product {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: ABeeZee!important;
+    padding-bottom: 60px;
+    max-width: 80%;
+    margin: auto!important;
+}
+
+.pas-icon .fa {
+    font-size: 40px;
+    background-color: #EB5508;
+    border-radius: 50%;
+    padding: 8px 15px;
+    color: #fff;
+    box-shadow: 2px 3px 15px 0px #e0e0e0!important;
+}
+
+.pas-icon .xd {
+    background-color: #8f2d56!important;
+}
+
+.pas-icon .xa {
+    background-color: #087f8c!important;
+}
+
+.pas-icon .xf {
+    background-color: #fbb13c!important;
+}
+
+.pas-icon .xv {
+    background-color: #007b40!important;
+}
+
+.pas-line {
+    border-left: 3px #fff dashed;
+}
+
+.port-grey {
+    background-color: #f8fafb!important;
+}
+
+.port-fk {
+    padding-top: 100px;
+}

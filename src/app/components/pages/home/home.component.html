@@ -1,0 +1,250 @@
+<!-- carousel -->
+<section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="{{oilandgas}}" alt="First slide" style="max-width: 100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="sm-biz">Vast Consulting Experience in the Oil and Gas Industry </h5>
+                    <p class="sm-wrd">Helping companies improve performance and achieve desired results</p>
+                    <button class="btn btn-home">Learn more</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="{{growth}}" alt="Second slide" style="max-width: 100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="sm-biz">Enhancing process improvement, productivity and Sustainability </h5>
+                    <p class="sm-wrd">Provision of business solutions that support companies </p>
+                    <button class="btn btn-home">Learn more</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="{{entrepreneur}}" alt="Third slide" style="max-width: 100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="sm-biz">Dedicated to the Success of Start-ups and SME’s </h5>
+                    <p class="sm-wrd">Delivering quality services to help meet growing challenges </p>
+                    <button class="btn btn-home">Learn more</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="{{coperation}}" alt="Third slide" style="max-width: 100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="sm-biz">Integrity &amp; Candour</h5>
+                    <p class="sm-wrd">Committed to a high standard of professional ethics & transparency</p>
+                    <button class="btn btn-home">Learn more</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="{{valuetax}}" alt="Third slide" style="max-width: 100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="sm-biz">Value Added Services </h5>
+                    <p class="sm-wrd">Delivery of value added services in pursuit of our client success</p>
+                    <button class="btn btn-home">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Aboout us -->
+<section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 log-x2" src="{{ about }}" alt="First slide" style="max-width: 100%">
+                <div class="carousel-caption d-none d-md-block abt-prof">
+                    <div class="row">
+                        <div class="col-md-11 abd">
+                            <h2 class="sm-us">About us</h2>
+                            <p class="ul-product">
+                                SS Afemikhe Consulting (Ltd) is a professional services consultancy firm incorporated in 2003 (CAC registration number 482453) as an offshoot of the highly respected firm of Chartered Accountants, SS Afemikhe & Co, itself registered in 1986 with its headquarters
+                                in Lagos, Nigeria </p>
+                            <div class="">
+                                <button class="btn btn-about">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Our Partners -->
+<section>
+    <div class="container">
+        <div class="part-f2">
+            <h2>Our Partners</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pad-in pad-out">
+                    <i class="fa fa-twitter"></i>
+                    <h2>Hart Group is a UK-based consulting organization with a large network of local and international associates...</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pad-in">
+                    <i class="fa fa-twitter"></i>
+                    <h2>OnTrack Engineering provides fully aligned project management solutions. With employees and associates...</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pad-in">
+                    <i class="fa fa-twitter"></i>
+                    <h2>FAIC is a professional organisation that carry out financial advisory, consultancy and asset management...</h2>
+                </div>
+            </div>
+        </div>
+        <div class="pat-btn">
+            <button class="btn btn-about">Learn more</button>
+        </div>
+    </div>
+</section>
+
+<!-- Our services starts here -->
+<section [class.pat-grey]="isSpecial">
+    <div class="container">
+        <div [class.serv-df]="isSpecial">
+            <h2>Our Services</h2>
+            <p>It is a long establish fact that readers will be distracted by the readable
+            </p>
+        </div>
+        <!-- First row start here -->
+        <div class="row serv-bot">
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{finance}}" class="img-responsive" alt="img">
+                    <h2>Financial & Management Service</h2>
+                    <p>It is a long establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{creative}}" class="img-responsive" alt="img">
+                    <h2>Business Advisory Services</h2>
+                    <p>It is a long establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{creative}}" class="img-responsive" alt="img">
+                    <h2>Corporate Secretarial Services </h2>
+                    <p>It is a long establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second row starts here -->
+        <div class="row serv-bot">
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{creative}}" class="img-responsive" alt="img">
+                    <h2>Audit and Assurance Service</h2>
+                    <p>It is a long establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{smesupport}}" class="img-responsive" alt="img">
+                    <h2>Tax Advisory and Consultancy</h2>
+                    <p>It is a long establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{finance}}" class="img-responsive" alt="img">
+                    <h2>Business Support to SMEs </h2>
+                    <p>It is a lcreativeong establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third row starts here -->
+        <div class="row serv-bot">
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{oilfunnel}}" class="img-responsive" alt="img">
+                    <h2>Oil and Gas Consultancy services </h2>
+                    <p>It is a long establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{innovation}}" class="img-responsive" alt="img">
+                    <h2>Human Resources and Allocation</h2>
+                    <p>It is a long establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 serv-x1">
+                <div class="serv-x2">
+                    <img src="{{finance}}" class="img-responsive" alt="img">
+                    <h2>Corporate Secretarial Services </h2>
+                    <p>It is a long establish fact that readers will be distracted by the readable</p>
+                    <div class="button-default button-slanted">
+                        <button class="btn btn-learn button-slanted-content">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- our portfolio start here -->
+<section [class.pat-grey]="isSpecial">
+    <div class="container">
+        <div [class.partner]="isSpecial">
+            <h2>Trusted by 5,000 world most innovative companies</h2>
+            <p>It is a long establish fact that readers will be distracted by the readable</p>
+        </div>
+        <div class="row" [class.pad-img]="isSpecial">
+            <div class="col-md-3">
+                <img src="{{ image1 }}" alt="image">
+            </div>
+            <div class="col-md-3">
+                <img src="{{ image1 }}" alt="image">
+            </div>
+            <div class="col-md-3">
+                <img src="{{ image1 }}" alt="image">
+            </div>
+            <div class="col-md-3">
+                <img src="{{ image1 }}" alt="image">
+            </div>
+        </div>
+    </div>
+</section>

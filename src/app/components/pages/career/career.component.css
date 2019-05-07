@@ -1,0 +1,17 @@
+/* images details goes here */
+
+.sm-biz {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: ABeeZee!important;
+    padding-bottom: 30px;
+}
+
+.ul-product {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: ABeeZee!important;
+    padding-bottom: 60px;
+    max-width: 80%;
+    margin: auto!important;
+}

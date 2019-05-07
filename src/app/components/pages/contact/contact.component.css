@@ -1,0 +1,55 @@
+/* images details goes here */
+
+.sm-biz {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: ABeeZee!important;
+    padding-bottom: 30px;
+}
+
+.ul-product {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: ABeeZee!important;
+    padding-bottom: 60px;
+    max-width: 80%;
+    margin: auto!important;
+}
+
+.f-us h2 {
+    color: #EB5508;
+    font-size: 22px!important;
+    font-family: ABeeZee, sans-serif;
+    font-weight: 700;
+}
+
+.f-us {
+    margin-bottom: 30px;
+}
+
+.off-lag h2 {
+    text-transform: capitalize!important;
+    font-size: 20px!important;
+}
+
+.off-lag p {
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: ABeeZee!important
+}
+
+.off-lag {
+    margin-bottom: 20px;
+}
+
+.log-x2 {
+    max-width: 100%!important;
+}
+
+.str-dr {
+    padding-left: 80px!important;
+}
+
+.sp-cont {
+    margin-top: 30px;
+}
